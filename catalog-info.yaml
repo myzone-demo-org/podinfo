@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: podinfo
+  description: Podinfo sample service
+  annotations:
+    backstage.io/kubernetes-id: podinfo
+    backstage.io/kubernetes-namespace: podinfo
+    github.com/project-slug: myzone-demo-org/podinfo
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
