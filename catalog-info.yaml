@@ -12,4 +12,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: group:default/devs
+  owner: group:default/gh-dev
